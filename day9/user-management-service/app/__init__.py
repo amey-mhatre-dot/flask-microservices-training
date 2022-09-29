@@ -34,7 +34,7 @@ def before_first_request():
 
 
 ### Logging setting
-app.logger.setLevel(logging.INFO)
+app.logger.setLevel(logging.WARNING)
 default_handler.setFormatter(logging.Formatter(
     '[%(asctime)s] %(levelname)s in %(module)s %(threadName)s: %(message)s'
 ))
